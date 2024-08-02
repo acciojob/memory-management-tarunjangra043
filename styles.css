@@ -28,6 +28,8 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .element {
