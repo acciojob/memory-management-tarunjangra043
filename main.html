@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Management Demo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Memory Management Application</h1>
+    <div id="controls">
+        <button id="addElement">Add Element</button>
+        <button id="removeElement">Remove Element</button>
+    </div>
+    <div id="elementContainer"></div>
+    <div id="memoryUsage">
+        <p>Heap Memory Usage: <span id="memoryValue">0</span> MB</p>
+    </div>
+    <div id="alert" class="hidden">
+        <p>Memory usage is high! Consider removing some elements to optimize.</p>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>

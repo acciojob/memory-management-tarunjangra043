@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#elementContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#memoryUsage {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#alert {
+    background-color: #ffcccc;
+    color: #ff0000;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
